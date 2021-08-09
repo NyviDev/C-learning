@@ -38,19 +38,15 @@ main() {
     scanf("%d", &yd);
 
     numRacionaisSoma(xn, xd, yn, yd, &respostaN, &respostaD);
-        
     printf("Soma de %d/%d + %d/%d: %d/%d", xn, xd, yn, yd, respostaN, respostaD);
 
     numRacionaisSub(xn, xd, yn, yd, &respostaN, &respostaD);
-
     printf("\nSubtracao de %d/%d - %d/%d: %d/%d", xn, xd, yn, yd, respostaN, respostaD);
 
     numRacionaisMult(xn, xd, yn, yd, &respostaN, &respostaD);
-
     printf("\nMultiplicacao de %d/%d * %d/%d: %d/%d", xn, xd, yn, yd, respostaN, respostaD);
     
     numRacionaisDiv(xn, xd, yn, yd, &respostaN, &respostaD);
-
     printf("\nDivisao de %d/%d / %d/%d: %d/%d", xn, xd, yn, yd, respostaN, respostaD);
     
 }
